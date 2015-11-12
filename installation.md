@@ -11,4 +11,3 @@ Procédure
 7- Installer l'application Jekyll avec la commande "apt-get install jekyll"
 8- Créer un nouveau fichier "index.html" dans le dossier sites avec la commande "touch index.html"
 9- Lancer Jekyll dans le navigateur avec la commande "jekyll new site" puis "cd site" et enfin "jekyll serve"
-10- 
