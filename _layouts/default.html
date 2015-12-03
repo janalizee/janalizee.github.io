@@ -9,7 +9,13 @@
 		{% include header.html %}
 	</header>
 	<main>
-		{% include content.html %}
+		<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 	</main>
 	<footer>
 		{% include footer.html %}
