@@ -15,7 +15,7 @@ title: Contact
             <div class="col-md-4">
                 <h3>Nos Coordonnées</h3>
                 <p>
-                    3481 Melrose Place<br>Beverly Hills, CA 90210<br>
+                    24, rue du Mail<br>76100 ROUEN<br>
                 </p>
                 <p><i class="fa fa-phone"></i> 
                     <abbr title="Phone">Tél</abbr>: 06.15.47.03.78</p>
@@ -36,26 +36,26 @@ title: Contact
                 <form name="sentMessage" id="contactForm" novalidate>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>NOM Prénom :</label>
+                            <label>NOM Prénom:</label>
                             <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
                             <p class="help-block"></p>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Numéro de Téléphone :</label>
+                            <label>Numéro de Téléphone:</label>
                             <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Adresse Mail :</label>
+                            <label>Adresse Mail:</label>
                             <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Votre Message :</label>
+                            <label>Votre Message:</label>
                             <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
                         </div>
                     </div>
