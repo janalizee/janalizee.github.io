@@ -33,6 +33,7 @@
 		{% include header.html %}
 	</header>
 	<main>
+		<div class="container">
 		<div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">Les Trois Derniers Articles
@@ -59,9 +60,12 @@
 
 			{% endfor %}
   		</div>
+  		</div>
 	</main>
 	<footer>
-		{% include footer.html %}
+		<div class="container">
+			{% include footer.html %}
+		</div>
 	</footer>
 </body>
 
